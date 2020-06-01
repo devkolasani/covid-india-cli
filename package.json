@@ -1,0 +1,43 @@
+{
+	"name": "covid-india-cli",
+	"version": "1.0.0",
+	"license": "MIT",
+	"author": {
+		"name": "Krishna Vivek Kolasani",
+		"email": "vivekkolasani45@gmail.com",
+		"url": "https://github.com/devkolasani"
+	},
+	"main": "./commands/index.js",
+	"bin": "./build/cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"dev": "pastel dev",
+		"build": "pastel build",
+		"prepare": "pastel build"
+	},
+	"keywords": [
+		"covid",
+		"cli",
+		"ink",
+		"react"
+	],
+	"files": [
+		"build"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/devkolasani/covid-india-cli.git"
+	},
+	"dependencies": {
+		"ink": "^2.7.1",
+		"node-fetch": "^2.6.0",
+		"pastel": "^1.0.3",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.1"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	}
+}
