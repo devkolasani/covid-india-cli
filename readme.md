@@ -2,10 +2,11 @@
 
 A cli client to view current COVID-19 details in india.
 
+![CLI Demo](./demo.gif)
+
 ## Installation
 
-1. Clone repository.
-2. Run command \$ `npm link`
+\$ `npm i -g @devkolasani/covid-india-cli`
 
 ## Usage
 
