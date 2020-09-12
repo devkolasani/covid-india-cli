@@ -35,7 +35,7 @@
 		"ink-big-text": "^1.2.0",
 		"ink-gradient": "^1.0.0",
 		"ink-spinner": "^3.1.0",
-		"node-fetch": "^2.6.0",
+		"node-fetch": "^2.6.1",
 		"pastel": "^1.0.3",
 		"prop-types": "^15.7.2",
 		"react": "^16.13.1"
